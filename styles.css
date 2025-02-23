@@ -34,8 +34,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 384px;
-    width: 100%;
+    width: clamp(327px, 30vw, 384px);
     flex-shrink: 0;
     padding: 24px;
     gap: 24px;
