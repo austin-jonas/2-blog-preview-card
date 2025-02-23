@@ -85,11 +85,18 @@ time {
 }
 
 h4 {
-    align-self: stretch;
     font-size: 24px;
     font-weight: 800;
     line-height: 150%;
     color: #111111;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+h4:hover,
+h4:focus,
+h4:active {
+    color: #F4D04E;
 }
 
 p {
